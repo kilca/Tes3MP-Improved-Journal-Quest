@@ -1,24 +1,25 @@
 # Improved Tes3 quest journal
 
-This plugin add a new command for showing a custom quest journal with better ui.
+This plugin adds a new command for showing a custom quest journal with better ui.
 
-It group all the journal entries into quests and make it green if the quest was made, and yellow if it's not
+It group all the journal entries into quests and makes them green if the quests are finished, and yellow if they're not.
 
 ![Alt text](showcase.png)
 
-### warn 
-- due to game limits, some finished quests are considered unfinished and do not have name assigned (eg `book_history`).
-- plugin tested only with shared quests
+### warning 
+- due to game limits, some finished quests are considered unfinished and do not have a name assigned (eg `book_history`).
+- plugin tested with only shared quests
 
-# To install 
+# Installation 
 
+- install [tes3mp](https://github.com/TES3MP/TES3MP/releases) 
 - Drag all the files in server/scripts file
 - Change the filepath in custom/questReader.lua to the absolute path of journal.txt
 - launch the server and the client
 - do `/journal`
 - profit
 
-# to improve :
+# Improve :
 
 ### How it was made :
 
@@ -30,4 +31,4 @@ I link the quests stored in the server to this file and show it with the custom 
 
 install lua :
  - [windows](https://github.com/rjpcomputing/luaforwindows/releases)
-    .Add lua to path, do `lua.exe` script in console
+    .Add lua to path, do `lua.exe` to test script in console
